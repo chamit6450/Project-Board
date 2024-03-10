@@ -1,0 +1,111 @@
+.main{
+    display: flex;
+}
+.notstarted{
+    width: 30%;
+    margin-left: 30px;
+    border: 2px solid #fed59a;
+}
+
+.inprogress{
+    width: 30%;
+    margin-left: 30px;
+    border: 2px solid #fc95a1;
+}
+.completed{
+    width: 30%;
+    margin-left: 30px;
+    border: 2px solid #88f0b3;
+}
+
+.task {
+    border: 2px solid #9698c3;
+    display: flex;
+    justify-content: space-between;
+    height: 33px;
+    width:70%;
+   
+    margin: 0 0 20px 50px ;
+  }
+  
+  /* .task button {
+    margin-left: 10px; 
+   */
+
+   .inp{
+   box-shadow: inset #abacaf 0 0 0 2px;
+   border: 0;
+   background: rgba(0, 0, 0, 0);
+   appearance: none;
+   width: 50%;
+   position: relative;
+   border-radius: 3px;
+   padding: 9px 12px;
+   /* line-height: 1.4; */
+   color: rgb(0, 0, 0);
+   font-size: 16px;
+   font-weight: 400;
+   height: 20px;
+   transition: all .2s ease;
+   }
+   .inp:hover{
+       box-shadow: 0 0 0 0 #fff inset, #d6d6e7 0 0 0 2px;
+   }
+   .inp:focus{
+       background: #fff;
+       outline: 0;
+       box-shadow: 0 0 0 0 #fff inset, #d6d6e7 0 0 0 3px;
+   }
+
+
+
+   .btn{
+   cursor: pointer;
+   outline: 0;
+   display: inline-block;
+   font-weight: 400;
+   line-height: 1.5;
+   text-align: center;
+   background-color: transparent;
+   border: 1px solid transparent;
+   padding: 6px 12px;
+   font-size: 1rem;
+   border-radius: .25rem;
+   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+   color: #0d6efd;
+   border-color: #0d6efd;
+   }
+   .btn:hover {
+       color: #fff;
+       background-color: #0d6efd;
+       border-color: #0d6efd;
+   }
+
+   .delBtn{
+   
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    height: 33px;
+    padding: 0 13px;
+    color: black;
+    vertical-align: top;
+    border-radius: 3px;
+    border: 2px solid transparent;
+    transition: all .3s ease;
+    background: #fff;
+    border-color: #cc4d29;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 16px;
+    font-size: 11px;
+
+   }
+    .delBtn:hover {
+        background: #e4461b;
+        border-color: #e4461b;
+        color: #fff;
+    }
+    
+   
